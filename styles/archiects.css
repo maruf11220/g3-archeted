@@ -51,5 +51,22 @@ nav li a{
     border-radius: 8px;
     background: #FF900E;
     width: 180px; 
-    height: 60px;   
+    height: 60px;  
+    border: 0; 
+}
+.banner img {
+    margin: 20px;
+    width: 100%;
+}
+@media screen and (max-with:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    
 }
